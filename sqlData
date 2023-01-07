@@ -1,0 +1,11 @@
+CREATE TABLE comments(
+	id int NOT NULL AUTO_INCREMENT,
+	name varchar(100),
+	comment varchar(255),
+	date varchar(100),
+	PRIMARY KEY (id)
+);
+
+INSERT INTO comments values(
+	'jimmy fox','adding values for all the columns of the table', '2023-01-05T14:49:31.612Z'
+);

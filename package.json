@@ -1,0 +1,19 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "description": "blubaylabs test",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon node server.js"
+  },
+  "author": "GIM",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.20"
+  }
+}
